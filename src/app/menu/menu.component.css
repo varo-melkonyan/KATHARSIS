@@ -51,6 +51,34 @@
   text-decoration: none;
 }
 
+.menu_items hr {
+  width: 180%;
+}
+
 .active_menu_items {
   color: #00FF70;
+  position: absolute;
+}
+
+.active_menu_item_img_background {
+  background: white;
+  min-width: 35.55vw;
+  height: 18.85vw;
+  transform: rotate(-8.07deg);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.active_menu_item_img {
+  width: 32vw;
+  position: absolute;
+  top: -5.7vw;
+}
+.active_menu_item_img_background span{
+  transform: rotate(8.07deg);
+  font-size: 1.8vw;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: -10px;
 }
