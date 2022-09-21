@@ -1,0 +1,56 @@
+#menu {
+  background: black;
+}
+
+#header_menu {
+  width: 100%;
+  display: flex;
+}
+
+.brand_logo {
+  padding: 40px 0 0 110px;
+}
+
+.brand_name {
+  color: #00FF70;
+  margin: auto auto auto 34px;
+  padding-top: 20px;
+}
+
+.star_svg {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+  width: 30%;
+}
+
+.star_svg svg {
+  align-items: end;
+}
+
+.menu_items {
+  display: flex;
+  margin: -20px auto auto auto;
+  width: 80%;
+  top: 0;
+}
+
+.menu_items ul {
+  width: 100%;
+}
+
+.menu_items ul li{
+  color: white;
+  font-size: 3vw;
+  list-style-type: none;
+  line-height: 0.7;
+}
+
+.menu_items a {
+  color: white;
+  text-decoration: none;
+}
+
+.active_menu_items {
+  color: #00FF70;
+}
