@@ -3,12 +3,13 @@
 }
 
 #header_menu {
-  width: 100%;
+  width: 80%;
   display: flex;
+  margin: 0 auto;
 }
 
 .brand_logo {
-  padding: 40px 0 0 110px;
+  padding-top: 40px;
 }
 
 .brand_name {
@@ -37,6 +38,7 @@
 
 .menu_items ul {
   width: 100%;
+  padding: 0;
 }
 
 .menu_items ul li{
@@ -62,8 +64,8 @@
 
 .active_menu_item_img_background {
   background: white;
-  min-width: 35.55vw;
-  height: 18.85vw;
+  min-width: 47vw;
+  height: 25vw;
   transform: rotate(-8.07deg);
   display: flex;
   justify-content: end;
@@ -71,14 +73,52 @@
 }
 
 .active_menu_item_img {
-  width: 32vw;
+  width: 42vw;
   position: absolute;
-  top: -5.7vw;
+  top: -7.5vw;
 }
+
 .active_menu_item_img_background span{
   transform: rotate(8.07deg);
-  font-size: 1.8vw;
+  font-size: 2.4vw;
   font-weight: bold;
   margin-right: 10px;
   margin-bottom: -10px;
+}
+
+.arrow_svg {
+  display: flex;
+  justify-content: end;
+  margin-right: 8%;
+  margin-top: -73px;
+}
+
+.arrow_svg svg {
+   width: 8.4vw;
+}
+
+.social_text {
+  width: 80%;
+  display: flex;
+  margin: 3vw auto 2vw auto;
+}
+
+.we_have_text {
+  color: white;
+  color: #bdbdbd;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 500;
+  width: 50%;
+}
+
+.social_svg {
+  display: grid;
+  justify-content: end;
+  width: 50%;
+  align-items: center;
+}
+
+.social_svg svg {
+  width: 13.4vw;
 }
