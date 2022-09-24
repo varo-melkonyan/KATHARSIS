@@ -12,6 +12,10 @@
   padding-top: 40px;
 }
 
+.brand_logo svg {
+  width: 9vw;
+}
+
 .brand_name {
   color: #00FF70;
   margin: auto auto auto 34px;
@@ -21,12 +25,13 @@
 .star_svg {
   display: flex;
   justify-content: end;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 30%;
 }
 
 .star_svg svg {
   align-items: end;
+  width: 5.5vw;
 }
 
 .menu_items {
@@ -43,7 +48,7 @@
 
 .menu_items ul li{
   color: white;
-  font-size: 3vw;
+  font-size: 4.3vw;
   list-style-type: none;
   line-height: 0.7;
 }
@@ -54,7 +59,7 @@
 }
 
 .menu_items hr {
-  width: 180%;
+  width: 200%;
 }
 
 .active_menu_items {
@@ -64,16 +69,17 @@
 
 .active_menu_item_img_background {
   background: white;
-  min-width: 47vw;
+  min-width: 45vw;
   height: 25vw;
   transform: rotate(-8.07deg);
   display: flex;
   justify-content: end;
   align-items: end;
+  margin-right: -68px;
 }
 
 .active_menu_item_img {
-  width: 42vw;
+  width: 40vw;
   position: absolute;
   top: -7.5vw;
 }
@@ -82,8 +88,8 @@
   transform: rotate(8.07deg);
   font-size: 2.4vw;
   font-weight: bold;
-  margin-right: 10px;
-  margin-bottom: -10px;
+  margin-right: 55px;
+  margin-bottom: -16px;
 }
 
 .arrow_svg {
@@ -100,7 +106,7 @@
 .social_text {
   width: 80%;
   display: flex;
-  margin: 3vw auto 2vw auto;
+  margin: 3vw auto 1vw auto;
 }
 
 .we_have_text {
@@ -121,4 +127,14 @@
 
 .social_svg svg {
   width: 13.4vw;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  background: #00FF70;
+  align-items: center;
+  height: 3.5vw;
 }
