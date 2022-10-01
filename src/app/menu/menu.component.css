@@ -97,6 +97,7 @@
   justify-content: end;
   margin-right: 8%;
   margin-top: -73px;
+  align-items: center;
 }
 
 .arrow_svg svg {

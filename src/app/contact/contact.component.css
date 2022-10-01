@@ -1,0 +1,10 @@
+#contact_section {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    background: black;
+}
+
+.contact_text {
+    color: #00FF70;
+}
