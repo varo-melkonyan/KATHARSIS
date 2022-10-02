@@ -1,3 +1,9 @@
+#body_contact {
+    width: 100%;
+    background-color: black;
+    padding-top: 6vw;
+}
+
 #contact_section {
     width: 80%;
     display: flex;
@@ -7,4 +13,40 @@
 
 .contact_text {
     color: #00FF70;
+}
+
+.star_contact {
+    width: 6vw;
+    position: absolute;
+}
+
+.contact_text {
+    width: 44.4vw;
+    position: relative;
+}
+
+.contact_text h1 {
+    font-weight: 800;
+    font-size: 7vw;
+    letter-spacing: 0;
+}
+
+.overlap_write_me {
+    position: relative;
+    left: -10vw;
+    top: 40px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.overlap_write_me svg {
+    width: 9vw;
+}
+
+.write_me_icon span {
+    position: relative;
+    color: white;
+    align-items: center;
+    display: flex;
 }
