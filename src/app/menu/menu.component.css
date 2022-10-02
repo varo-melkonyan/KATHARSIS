@@ -1,141 +1,158 @@
-#menu {
-  background: black;
+@font-face {
+  font-family: 'Montserrat'; 
+  src: local('Montserrat'), url('src/assets/fonts/Montserrat.ttf');
 }
 
-#header_menu {
-  width: 80%;
-  display: flex;
-  margin: 0 auto;
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('src/assets/fonts/Roboto.ttf');
 }
 
-.brand_logo {
-  padding-top: 40px;
-}
+@media screen and (min-width: 1080px) {
+  #menu {
+    background: black;
+  }
 
-.brand_logo svg {
-  width: 9vw;
-}
+  #header_menu {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+  }
 
-.brand_name {
-  color: #00FF70;
-  margin: auto auto auto 34px;
-  padding-top: 20px;
-}
+  .brand_logo {
+    padding-top: 40px;
+  }
 
-.star_svg {
-  display: flex;
-  justify-content: end;
-  margin-top: 30px;
-  width: 30%;
-}
+  .brand_logo svg {
+    width: 9vw;
+  }
 
-.star_svg svg {
-  align-items: end;
-  width: 5.5vw;
-}
+  .brand_name {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #00FF70;
+    margin: auto auto auto 34px;
+    padding-top: 20px;
+  }
 
-.menu_items {
-  display: flex;
-  margin: -20px auto auto auto;
-  width: 80%;
-  top: 0;
-}
+  .star_svg {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    width: 30%;
+  }
 
-.menu_items ul {
-  width: 100%;
-  padding: 0;
-}
+  .star_svg svg {
+    align-items: end;
+    width: 5.5vw;
+  }
 
-.menu_items ul li{
-  color: white;
-  font-size: 4.3vw;
-  list-style-type: none;
-  line-height: 0.7;
-}
+  .menu_items {
+    display: flex;
+    margin: -20px auto auto auto;
+    width: 80%;
+    top: 0;
+  }
 
-.menu_items a {
-  color: white;
-  text-decoration: none;
-}
+  .menu_items ul {
+    width: 100%;
+    padding: 0;
+  }
 
-.menu_items hr {
-  width: 200%;
-}
+  .menu_items ul li{
+    color: white;
+    font-size: 4.3vw;
+    list-style-type: none;
+    line-height: 0.7;
+  }
 
-.active_menu_items {
-  color: #00FF70;
-  position: absolute;
-}
+  .menu_items a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bolder;
+  }
 
-.active_menu_item_img_background {
-  background: white;
-  min-width: 45vw;
-  height: 25vw;
-  transform: rotate(-8.07deg);
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  margin-right: -68px;
-}
+  .menu_items hr {
+    width: 200%;
+  }
 
-.active_menu_item_img {
-  width: 40vw;
-  position: absolute;
-  top: -7.5vw;
-}
+  .active_menu_items {
+    color: #00FF70;
+    position: absolute;
+  }
 
-.active_menu_item_img_background span{
-  transform: rotate(8.07deg);
-  font-size: 2.4vw;
-  font-weight: bold;
-  margin-right: 55px;
-  margin-bottom: -16px;
-}
+  .active_menu_item_img_background {
+    background: white;
+    min-width: 45vw;
+    height: 25vw;
+    transform: rotate(-8.07deg);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: -68px;
+  }
 
-.arrow_svg {
-  display: flex;
-  justify-content: end;
-  margin-right: 8%;
-  margin-top: -73px;
-  align-items: center;
-}
+  .active_menu_item_img {
+    width: 40vw;
+    position: absolute;
+    top: -11vw;
+  }
 
-.arrow_svg svg {
-   width: 8.4vw;
-}
+  .active_menu_item_img_background span{
+    font-size: 2.4vw;
+    font-weight: 900;
+    margin-right: 55px;
+    font-family: 'Roboto';
+    font-style: italic;
+  }
 
-.social_text {
-  width: 80%;
-  display: flex;
-  margin: 3vw auto 1vw auto;
-}
+  .arrow_svg {
+    display: flex;
+    justify-content: end;
+    margin-right: 8%;
+    margin-top: -73px;
+    align-items: center;
+  }
 
-.we_have_text {
-  color: white;
-  color: #bdbdbd;
-  font-size: 1.5vw;
-  font-style: normal;
-  font-weight: 500;
-  width: 50%;
-}
+  .arrow_svg svg {
+    width: 8.4vw;
+  }
 
-.social_svg {
-  display: grid;
-  justify-content: end;
-  width: 50%;
-  align-items: center;
-}
+  .social_text {
+    width: 80%;
+    display: flex;
+    margin: 3vw auto 1vw auto;
+  }
 
-.social_svg svg {
-  width: 13.4vw;
-}
+  .we_have_text {
+    color: #bdbdbd;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 500;
+    width: 50%;
+    font-family: 'Roboto';
+    font-weight: 700;
+  }
 
-.footer_menu {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-weight: bold;
-  background: #00FF70;
-  align-items: center;
-  height: 3.5vw;
+  .social_svg {
+    display: grid;
+    justify-content: end;
+    width: 50%;
+    align-items: center;
+  }
+
+  .social_svg svg {
+    width: 13.4vw;
+  }
+
+  .footer_menu {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    background: #00FF70;
+    align-items: center;
+    height: 3.5vw;
+  }
 }
