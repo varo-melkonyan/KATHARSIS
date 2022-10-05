@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat'; 
+  font-family: 'Montserrat';
   src: local('Montserrat'), url('src/assets/fonts/Montserrat.ttf');
 }
 
@@ -84,8 +84,9 @@
 
   .active_menu_item_img_background {
     background: white;
-    min-width: 45vw;
-    height: 25vw;
+    margin-top: 1vw;
+    min-width: 49.34073560027758vw;
+    height: 26.162387231089525vw;
     transform: rotate(-8.07deg);
     display: flex;
     justify-content: end;
@@ -94,9 +95,9 @@
   }
 
   .active_menu_item_img {
-    width: 40vw;
+    width: 37vw;
     position: absolute;
-    top: -11vw;
+    top: -6vw;
   }
 
   .active_menu_item_img_background span{
