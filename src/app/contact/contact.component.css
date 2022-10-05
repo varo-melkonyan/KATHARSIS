@@ -16,8 +16,12 @@
 }
 
 .star_contact {
-    width: 6vw;
+    left: 32vw;
     position: absolute;
+}
+
+.star_contact svg{
+    width: 4vw;
 }
 
 .contact_text {
@@ -34,9 +38,9 @@
 .overlap_write_me {
     position: relative;
     left: -10vw;
-    top: 40px;
+    top: 2vw;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -45,8 +49,36 @@
 }
 
 .write_me_icon span {
+    position: absolute;
+    color: black;
+    font-size: 2.2vw;
+    text-align: center;
+}
+
+.overlap_call_me {
     position: relative;
-    color: white;
-    align-items: center;
+    left: -19vw;
+    top: 25vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlap_call_me svg {
+    width: 9vw;
+}
+
+.call_me_icon span {
+    position: absolute;
+    color: black;
+    font-size: 2.2vw;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.div_contact {
+    background-color: white;
+    display: flex;
+    width: 200px;
+    height: 200px;
 }
