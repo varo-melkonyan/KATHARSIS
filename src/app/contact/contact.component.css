@@ -1,84 +1,111 @@
-#body_contact {
-    width: 100%;
-    background-color: black;
-    padding-top: 6vw;
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('src/assets/fonts/Montserrat.ttf');
 }
 
-#contact_section {
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-    background: black;
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url('src/assets/fonts/Roboto.ttf');
 }
 
-.contact_text {
-    color: #00FF70;
-}
+@media screen and (min-width: 1080px) {
+    #body_contact_size {
+        box-sizing: border-box;
+    }
 
-.star_contact {
-    left: 32vw;
-    position: absolute;
-}
+    .body_contact {
+        width: 100%;
+        background-color: black;
+    }
 
-.star_contact svg{
-    width: 4vw;
-}
+    #contact_section {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        background: black;
+    }
 
-.contact_text {
-    width: 44.4vw;
-    position: relative;
-}
+    .star_contact {
+        left: 461px;
+        position: absolute;
+        margin-top: 67px;
+    }
 
-.contact_text h1 {
-    font-weight: 800;
-    font-size: 7vw;
-    letter-spacing: 0;
-}
+    .star_contact svg{
+        width: 73px;
+    }
 
-.overlap_write_me {
-    position: relative;
-    left: -10vw;
-    top: 2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .contact_text {
+        width: 460px;
+        position: relative;
+        display: contents;
+    }
 
-.overlap_write_me svg {
-    width: 9vw;
-}
+    .contact_text h1 {
+        font-weight: 800;
+        font-size: 98px;
+        letter-spacing: 0;
+        color: #00FF70;
+        line-height: 115px;
+        font-family: 'Roboto';
+        margin-top: 101.58px;
+    }
 
-.write_me_icon span {
-    position: absolute;
-    color: black;
-    font-size: 2.2vw;
-    text-align: center;
-}
+    .overlap_write_me {
+        left: -10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.overlap_call_me {
-    position: relative;
-    left: -19vw;
-    top: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .overlap_write_me svg {
+        width: 182px;
+    }
 
-.overlap_call_me svg {
-    width: 9vw;
-}
+    .write_me_icon {
+        position: absolute;
+        left: calc(10% + 490px);
+        margin-top: 79.6px;
+    }
 
-.call_me_icon span {
-    position: absolute;
-    color: black;
-    font-size: 2.2vw;
-    text-align: center;
-    letter-spacing: 0;
-}
+    .write_me_icon span {
+        position: absolute;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+    }
 
-.div_contact {
-    background-color: white;
-    display: flex;
-    width: 200px;
-    height: 200px;
+    .overlap_call_me {
+        left: -19vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlap_call_me svg {
+        width: 182px;
+    }
+
+    .call_me_icon {
+        position: absolute;
+        left: calc(10% + 490px);
+        margin-top: 460.57px;
+    }
+
+    .call_me_icon span {
+        position: absolute;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .div_contact {
+        position: absolute;
+        right: 10%;
+        width: 515.36px;
+        height: 573.4px;
+        margin-top: 53.55px;
+        background: #FFFFFF;
+    }
 }
