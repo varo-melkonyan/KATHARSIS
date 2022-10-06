@@ -19,7 +19,7 @@
     }
 
     #contact_section {
-        width: 80%;
+        width: 86%;
         display: flex;
         margin: 0 auto;
         background: black;
@@ -64,7 +64,7 @@
 
     .write_me_icon {
         position: absolute;
-        left: calc(10% + 490px);
+        left: calc(7% + 490px);
         margin-top: 79.6px;
     }
 
@@ -88,7 +88,7 @@
 
     .call_me_icon {
         position: absolute;
-        left: calc(10% + 490px);
+        left: calc(7% + 490px);
         margin-top: 460.57px;
     }
 
@@ -102,10 +102,15 @@
 
     .div_contact {
         position: absolute;
-        right: 10%;
+        right: 7%;
         width: 515.36px;
         height: 573.4px;
         margin-top: 53.55px;
         background: #FFFFFF;
+    }
+
+    .contact_form_svg {
+        position: absolute;
+        right: 81px;
     }
 }
