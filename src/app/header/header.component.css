@@ -1,3 +1,61 @@
+#header_body {
+    width: 100%;
+    box-sizing: border-box;
+    background: black;
+}
+
 #header {
     height: 106px;
+    background: black;
+    display: flex;
+    width: 86%;
+    margin: 0 auto;
 }
+
+#menu {
+    background: black;
+}
+
+.brand_logo {
+    align-self: center;
+}
+
+.brand_logo svg {
+    width: 74px;
+    padding-top: 10px;
+}
+
+.brand_name {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #00FF70;
+    margin: auto 0 auto 34px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.div_header {
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    left: 326px;
+    top: 35px;
+    background: #00FF70;
+}
+
+.menu_items {
+    display: flex;
+    align-self: center;
+}
+
+.menu_items li{
+    padding-right: 50px;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FF70;
+    cursor: pointer;
+} 
