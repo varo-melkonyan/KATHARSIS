@@ -61,4 +61,16 @@
         color: #00FF70;
         cursor: pointer;
     }
+
+    .header_menu_button {
+        align-self: center;
+        position: absolute;
+        right: 7%;
+        cursor: pointer;
+    }
+
+    .header_menu_button svg {
+        width: 2.083333333333333vw;
+        height: 1.3888888888888888vw;
+    }
 }

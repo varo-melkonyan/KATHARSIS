@@ -8,11 +8,22 @@ import { Component, OnInit } from '@angular/core';
               '../../assets/fonts/Montserrat/montserrat.css'
             ]
 })
+
 export class HeaderComponent implements OnInit {
+
+  public showmenu: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  showMenu(): void {
+    if(!this.showmenu) {
+      this.showmenu = true;
+    }
+    else {
+      this.showmenu = false;
+    }
+  }
 }

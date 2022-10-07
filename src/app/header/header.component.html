@@ -1,3 +1,4 @@
+<app-menu *ngIf="showmenu"></app-menu>
 <div id="header_body">
     <div id="header">
         <div class="brand_logo">
@@ -16,5 +17,14 @@
             <li class="menu_school">SCHOOL</li>
             <li class="menu_blog">BLOG</li>
         </ul>
+        <div class="header_menu_button" (click)="showMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 30 20" fill="none">
+                <path d="M30 15.834H0V20.0002H30V15.834Z" fill="#00FF70"/>
+                <path d="M30 7.91699H0V12.0832H30V7.91699Z" fill="#00FF70"/>
+                <path d="M30 0H26V4H30V0Z" fill="white"/>
+                <path d="M17 0H13V4H17V0Z" fill="white"/>
+                <path d="M4 0H0V4H4V0Z" fill="white"/>
+                </svg>
+        </div>
     </div>
 </div>
