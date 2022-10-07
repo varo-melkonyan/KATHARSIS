@@ -12,18 +12,17 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   public showmenu: boolean = false;
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
   showMenu(): void {
+    console.log('waf')
     if(!this.showmenu) {
       this.showmenu = true;
-    }
-    else {
-      this.showmenu = false;
+      console.log('awfa')
     }
   }
 }

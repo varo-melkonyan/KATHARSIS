@@ -10,9 +10,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  public hidemenu: boolean = true;
+
+  public openCloseStyles = 
+    {
+      transition: '2s',
+      display: 'block',
+      transform: 'translateY(0%)'
+    };
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  
+  hideMenu(): void  {
+    if(this.hidemenu) {
+      this.hidemenu = false;
+      console.log('afw')
+    }
+  }
 }
