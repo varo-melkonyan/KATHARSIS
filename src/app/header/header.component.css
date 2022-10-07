@@ -1,16 +1,3 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: local('Montserrat'), url('src/assets/fonts/MontserratMontserrat-ExtraBold.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: local('Roboto'), url('/src/assets/fonts/Roboto/Roboto-Regular.ttf');
-}
-
-@import url("/src/assets/fonts/Montserrat/montserrat.css");
-@import url("/src/assets/fonts/Roboto/roboto.css");
-
 @media screen and (min-width: 1080px) {
     #header_body {
         width: 100%;
@@ -40,7 +27,7 @@
     }
 
     .brand_name {
-        font-family: 'Montserrat';
+        font-family: 'Montserrat-SemiBold';
         font-weight: 600;
         color: #00FF70;
         margin: auto 0 auto 17px;

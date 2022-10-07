@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat'), url('src/assets/fonts/Montserrat.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: local('Roboto'), url('src/assets/fonts/Roboto.ttf');
-}
-
 @media screen and (min-width: 1080px) {
   #menu {
     background: black;
