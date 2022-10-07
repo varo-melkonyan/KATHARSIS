@@ -6,7 +6,7 @@
     }
 
     #header {
-        height: 106px;
+        height: 7.361111111111112vw;
         background: black;
         display: flex;
         width: 86%;
@@ -22,42 +22,42 @@
     }
 
     .brand_logo svg {
-        width: 74px;
-        padding-top: 10px;
+        width: 5.138888888888888vw;
+        padding-top: 0.6944444444444444vw;
     }
 
     .brand_name {
         font-family: 'Montserrat-SemiBold';
         font-weight: 600;
         color: #00FF70;
-        margin: auto 0 auto 17px;
+        margin: auto 0 auto 1.1805555555555556vw;
         font-style: normal;
-        line-height: 24.38px;
+        line-height: 1.6930555555555555vw;
     }
 
     .div_header {
-        position: absolute;
-        width: 1px;
-        height: 38px;
-        left: 326px;
-        top: 35px;
+        position: relative;
+        width: 0.06944444444444445vw;
+        height: 2.638888888888889vw;
+        margin-left: 3.4722222222222223vw;
+        top: 2.430555555555556vw;
         background: #00FF70;
     }
 
     .menu_items {
         display: flex;
         align-self: center;
-        margin-left: 30px;
+        margin-left: 2.083333333333333vw;
     }
 
     .menu_items li{
-        padding-right: 50px;
+        padding-right: 3.4722222222222223vw;
         list-style-type: none;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1.1111111111111112vw;
+        line-height: 1.3888888888888888vw;
         color: #00FF70;
         cursor: pointer;
     }
