@@ -1,14 +1,16 @@
 @media screen and (min-width: 1080px) {
   #menu {
+    box-sizing: border-box;
     background: black;
     display: none;
     transform: translateY(-100%);
     transition-timing-function: ease-in;
     transition: 20s;
   }
-  
+
   #header_menu {
     height: 7.361111111111112vw;
+    max-width: 1224px;
     width: 86%;
     display: flex;
     margin: 0 auto;
@@ -57,7 +59,8 @@
   .menu_items {
     display: flex;
     margin: -20px auto auto auto;
-    width: 86%;
+    max-width: 1224px;
+
     top: 0;
   }
 
@@ -98,36 +101,40 @@
     display: flex;
     justify-content: end;
     align-items: end;
-    margin-left: 42.780556vw;
+    margin-left: 40.5vw;
   }
 
   .active_menu_item_img {
     width: 39.791667vw;
     position: absolute;
-    margin-top: 8.422916666666667vw;
+    top: -10vw;
+    left: 40px;
+    transform: rotate(4.19deg);
   }
 
   .active_menu_item_img_background span{
-    font-size: 2.4vw;
-    font-weight: 900;
-    margin-right: 55px;
-    font-family: 'Roboto';
+    font-size: 2.481076388888889vw;
+    font-weight: 600;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    font-family: 'Roboto-BoldItalic';
     font-style: italic;
   }
 
   .arrow_svg {
     display: flex;
     justify-content: end;
-    margin-right: 8%;
+    margin-right: 90px;
     margin-top: -73px;
     align-items: center;
   }
 
   .arrow_svg svg {
-    width: 8.4vw;
+    width: 8.88888888888889vw;
   }
 
   .social_text {
+    max-width: 1224px;
     width: 86%;
     display: flex;
     margin: 3vw auto 1vw auto;
@@ -135,18 +142,17 @@
 
   .we_have_text {
     color: #bdbdbd;
-    font-size: 1.5vw;
+    font-size: 1.6666666666666667vw;
     font-style: normal;
     font-weight: 500;
-    width: 50%;
-    font-family: 'Roboto';
-    font-weight: 700;
+    width: 100%;
+    font-family: 'Roboto-Medium';
+    padding-bottom: 40px;
   }
 
   .social_svg {
     display: grid;
     justify-content: end;
-    width: 50%;
     align-items: center;
   }
 
@@ -155,12 +161,22 @@
   }
 
   .footer_menu {
+    font-family: 'Roboto-Bold';
+    font-size: 1.1111111111111112vw;
     display: flex;
     justify-content: center;
     color: black;
-    font-weight: bold;
     background: #00FF70;
     align-items: center;
     height: 3.5vw;
+    font-weight: 800;
+    line-height: 19px;
+  }
+
+  .menu_items svg {
+    min-width: 100%;
+    height: 1px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
   }
 }
