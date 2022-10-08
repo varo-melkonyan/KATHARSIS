@@ -1,17 +1,18 @@
 @media screen and (min-width: 1080px) {
   #menu {
     box-sizing: border-box;
-    background: black;
+    background: #1A1A1A;
     display: none;
     transform: translateY(-100%);
     transition-timing-function: ease-in;
     transition: 20s;
+    width: 100%;
   }
 
   #header_menu {
     height: 7.361111111111112vw;
-    max-width: 1224px;
-    width: 86%;
+    max-width: 1440px;
+    width: 1220px;
     display: flex;
     margin: 0 auto;
   }
@@ -21,34 +22,35 @@
   }
 
   .brand_logo svg {
+    max-width: 136.14px;
     width: 9.444444444444445vw;
-    padding-top: 0.6944444444444444vw;
+    padding-top: 1vw
   }
 
   .brand_name {
+    width: 100%;
     font-family: 'Montserrat-SemiBold';
     font-weight: 600;
     color: #00FF70;
     margin: auto 0 auto 1.1805555555555556vw;
     font-style: normal;
-    line-height: 3.0243055555555554vw;
+    line-height: 44px;
   }
 
   .header_menu_close_button {
     align-self: center;
-    position: absolute;
-    right: 7%;
     cursor: pointer;
   }
 
   .header_menu_close_button svg {
-    width: 2.083333333333333vw;
-    height: 1.3888888888888888vw;
+    width: 30px;
+    height: 30px;
   }
 
   .star_svg {
     margin-top: 3.0555555555555554vw;
     margin-left: 26.805555555555554vw;
+    max-width: 1440px;
   }
 
   .star_svg svg {
@@ -59,8 +61,8 @@
   .menu_items {
     display: flex;
     margin: -20px auto auto auto;
-    max-width: 1224px;
-
+    max-width: 1440px;
+    width: 1220px;
     top: 0;
   }
 
@@ -83,6 +85,7 @@
   }
 
   .menu_items hr {
+    max-width: 1440px;
     width: 85vw;
   }
 
@@ -95,13 +98,15 @@
     position: absolute;
     background: white;
     margin-top: 1vw;
-    width: 46.16vw;
+    max-width: 711px;
+    width: 35.16vw;
+    max-height: 377px;
     height: 26.162387231089525vw;
     transform: rotate(-8.07deg);
     display: flex;
     justify-content: end;
     align-items: end;
-    margin-left: 40.5vw;
+    /* margin-left: 40.5vw; */
   }
 
   .active_menu_item_img {
@@ -134,20 +139,20 @@
   }
 
   .social_text {
-    max-width: 1224px;
-    width: 86%;
+    max-width: 1440px;
+    width: 1220px;
     display: flex;
     margin: 3vw auto 1vw auto;
+    padding-bottom: 40px;
   }
 
   .we_have_text {
     color: #bdbdbd;
-    font-size: 1.6666666666666667vw;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     width: 100%;
     font-family: 'Roboto-Medium';
-    padding-bottom: 40px;
   }
 
   .social_svg {
@@ -161,14 +166,16 @@
   }
 
   .footer_menu {
+    width: 100%;
+    margin: 0 auto;
     font-family: 'Roboto-Bold';
-    font-size: 1.1111111111111112vw;
+    font-size: 16px;
     display: flex;
     justify-content: center;
-    color: black;
+    color: #1A1A1A;
     background: #00FF70;
     align-items: center;
-    height: 3.5vw;
+    height: 56px;
     font-weight: 800;
     line-height: 19px;
   }
