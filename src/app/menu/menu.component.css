@@ -24,7 +24,7 @@
   .brand_logo svg {
     max-width: 136px;
     width: 9.444444444444445vw;
-    padding-top: 1vw
+    padding-top: 1vw;
   }
 
   .brand_name {
@@ -158,21 +158,6 @@
 
   .social_svg svg {
     width: 13.4vw;
-  }
-
-  .footer_menu {
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Roboto-Bold';
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    color: #1A1A1A;
-    background: #00FF70;
-    align-items: center;
-    height: 56px;
-    font-weight: 800;
-    line-height: 19px;
   }
 
   .menu_items svg {

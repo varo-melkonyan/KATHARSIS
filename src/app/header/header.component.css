@@ -2,19 +2,19 @@
     #header_body {
         width: 100%;
         box-sizing: border-box;
-        background: black;
+        background: #1A1A1A;
     }
 
     #header {
-        height: 7.361111111111112vw;
-        background: black;
+        height: 106px;
+        max-width: 1440px;
+        width: 84.72222222222221vw;
         display: flex;
-        width: 86%;
         margin: 0 auto;
     }
 
     #menu {
-        background: black;
+        background: #1A1A1A;
     }
 
     .brand_logo {
@@ -22,8 +22,9 @@
     }
 
     .brand_logo svg {
-        width: 5.138888888888888vw;
-        padding-top: 0.6944444444444444vw;
+        max-width: 136px;
+        width: 9.444444444444445vw;
+        padding-top: 1vw;
     }
 
     .brand_name {
@@ -32,45 +33,44 @@
         color: #00FF70;
         margin: auto 0 auto 1.1805555555555556vw;
         font-style: normal;
-        line-height: 1.6930555555555555vw;
+        line-height: 44px;
     }
 
     .div_header {
-        position: relative;
-        width: 0.06944444444444445vw;
-        height: 2.638888888888889vw;
-        margin-left: 3.4722222222222223vw;
-        top: 2.430555555555556vw;
+        width: 1px;
+        height: 38px;
         background: #00FF70;
+        align-self: center;
+        margin-left: 27px;
+        margin-right: 27px;
     }
 
     .menu_items {
+        width: 100%;
         display: flex;
         align-self: center;
-        margin-left: 2.083333333333333vw;
+        padding: 0;
     }
 
     .menu_items li{
-        padding-right: 3.4722222222222223vw;
+        padding-right: 50px;
         list-style-type: none;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat-Bold';
         font-style: normal;
         font-weight: 700;
-        font-size: 1.1111111111111112vw;
-        line-height: 1.3888888888888888vw;
+        font-size: 16px;
+        line-height: 20px;
         color: #00FF70;
         cursor: pointer;
     }
 
     .header_menu_button {
         align-self: center;
-        position: absolute;
-        right: 7%;
         cursor: pointer;
     }
 
     .header_menu_button svg {
-        width: 2.083333333333333vw;
-        height: 1.3888888888888888vw;
+        width: 30px;
+        height: 30px;
     }
 }

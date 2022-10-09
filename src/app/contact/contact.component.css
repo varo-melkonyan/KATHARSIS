@@ -1,24 +1,28 @@
 @media screen and (min-width: 1080px) {
     #body_contact_size {
         box-sizing: border-box;
+        background-color: #1A1A1A;
     }
 
     .body_contact {
         width: 100%;
-        background-color: black;
+        background-color: #1A1A1A;
     }
 
     #contact_section {
-        width: 86%;
+        max-width: 1440px;
+        width: 84.72222222222221vw;
         display: flex;
         margin: 0 auto;
-        background: black;
+        background: #1A1A1A;
+        margin-top: 67px;
     }
 
     .star_contact {
-        left: 461px;
-        position: absolute;
-        margin-top: 67px;
+        display: flex;
+        max-width: 1440px;
+        width: 84.72222222222221vw;
+        margin: 10px auto 10px auto;
     }
 
     .star_contact svg{
@@ -26,9 +30,11 @@
     }
 
     .contact_text {
-        width: 460px;
-        position: relative;
-        display: contents;
+        display: flex;
+        margin: -20px auto auto auto;
+        max-width: 1440px;
+        min-width: 639px;
+        top: 0;
     }
 
     .contact_text h1 {
@@ -37,7 +43,7 @@
         letter-spacing: 0;
         color: #00FF70;
         line-height: 115px;
-        font-family: 'Roboto';
+        font-family: 'Roboto-Bold';
         margin-top: 101.58px;
     }
 
