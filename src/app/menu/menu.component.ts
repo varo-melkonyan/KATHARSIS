@@ -14,7 +14,6 @@ export class MenuComponent implements OnInit {
 
   public openCloseStyles =
     {
-      transition: '2s',
       display: 'grid',
       transform: 'translateY(0%)'
     };
