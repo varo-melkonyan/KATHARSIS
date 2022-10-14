@@ -12,10 +12,10 @@ export class MenuComponent implements OnInit {
 
   public hidemenu: boolean = true;
 
-  public openCloseStyles = 
+  public openCloseStyles =
     {
       transition: '2s',
-      display: 'block',
+      display: 'grid',
       transform: 'translateY(0%)'
     };
 
@@ -23,7 +23,7 @@ export class MenuComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+
   hideMenu(): void  {
     if(this.hidemenu) {
       this.hidemenu = false;

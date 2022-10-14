@@ -5,8 +5,8 @@
     display: none;
     transform: translateY(-100%);
     transition-timing-function: ease-in;
-    transition: 20s;
     width: 100%;
+    height: 100vh;
   }
 
   #header_menu {

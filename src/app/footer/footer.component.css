@@ -9,7 +9,8 @@
         color: #1A1A1A;
         background: #00FF70;
         align-items: center;
-        height: 56px;
+        min-height: 50px;
+        height: 100%;
         font-weight: 800;
         line-height: 19px;
   }
